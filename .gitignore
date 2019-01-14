@@ -1,0 +1,70 @@
+# IDE files
+*.~*~
+*.local
+*.dproj.*
+*.identcache
+__history
+__recovery
+*.stat
+
+# Delphi Compiler output files
+*.drc
+*.map
+*.jdbg
+*.tds
+*.exe
+*.dll
+*.bpl
+*.dcu
+*.dcp
+
+# C++ Builder Compiler output files
+*.bpi
+*.obj
+*.lib
+*.hpp
+*.i
+*.il?
+*.#??
+*.pbi
+
+# 64bit Delphi/C++Builder files
+*.[ao]
+
+# InnoSetup installer
+Output/*
+
+# Help files
+help/*/*.hlp
+help/*/*.cnt
+help/*/*.gid
+help/*/*.dcu
+help/*/*.dof
+help/*/*.cfg
+
+help/ishelp/*_generated.*
+help/ishelp/Staging/contents.htm
+help/ishelp/Staging/contentsindex.js
+help/ishelp/Staging/*generated*.*
+help/ishelp/Staging/*.chm
+help/ishelp/Staging/topic_*.htm
+
+help/ispphelp/*_generated.*
+help/ispphelp/Staging/contents.htm
+help/ispphelp/Staging/contentsindex.js
+help/ispphelp/Staging/*generated*.*
+help/ispphelp/Staging/*.chm
+help/ispphelp/Staging/topic_*.htm
+
+# Other files
+Files/*.e32
+Projects/*.res
+Projects/Common/*.res
+buildtag.inc
+setup-*.bin
+c.bat
+compilesettings.bat
+setup-sign.bat
+C[Vv][Ss]
+.cvsignore
+Output

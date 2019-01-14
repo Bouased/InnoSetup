@@ -1,0 +1,33 @@
+MAINICON ICON "Compil32_Icon.ico"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 0,0,0,0
+PRODUCTVERSION 0,0,0,0
+FILEFLAGSMASK 0x3fL
+FILEFLAGS 0x0L
+FILEOS 0x4L
+FILETYPE 0x1L
+FILESUBTYPE 0x0L
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "080904B0"
+    BEGIN
+      VALUE "FileDescription", "Inno Setup Compiler\0"
+      VALUE "FileVersion", "0.0.0.0\0"
+      VALUE "InternalName", "Compil32\0"
+      VALUE "LegalCopyright", "Copyright (C) 1997-2018 Jordan Russell. Portions Copyright (C) 2000-2018 Martijn Laan.\0"
+      VALUE "LegalTrademarks", "Inno Setup\0"
+      VALUE "OriginalFilename", "Compil32.exe\0"
+      VALUE "ProductName", "Inno Setup\0"
+      VALUE "ProductVersion","0.0.0.0\0"
+      VALUE "Comments", "Inno Setup home page: http://www.innosetup.com\0"
+      VALUE "CompanyName", "Jordan Russell\0"
+    END
+  END
+
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x809,1200
+  END
+END
